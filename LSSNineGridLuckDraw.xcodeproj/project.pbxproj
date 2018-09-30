@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA0126D7215B6A410016F261 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0126D6215B6A410016F261 /* AppDelegate.m */; };
+		EA0126DA215B6A410016F261 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0126D9215B6A410016F261 /* ViewController.m */; };
+		EA0126DD215B6A410016F261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0126DB215B6A410016F261 /* Main.storyboard */; };
+		EA0126DF215B6A410016F261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0126DE215B6A410016F261 /* Assets.xcassets */; };
+		EA0126E2215B6A410016F261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0126E0215B6A410016F261 /* LaunchScreen.storyboard */; };
+		EA0126E5215B6A410016F261 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0126E4215B6A410016F261 /* main.m */; };
+		EA0126EF215B6A420016F261 /* LSSNineGridLuckDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0126EE215B6A420016F261 /* LSSNineGridLuckDrawTests.m */; };
+		EA0126FA215B6A420016F261 /* LSSNineGridLuckDrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0126F9215B6A420016F261 /* LSSNineGridLuckDrawUITests.m */; };
+		EA01270A215B6A730016F261 /* LSSLuckDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = EA012709215B6A730016F261 /* LSSLuckDraw.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA0126EB215B6A420016F261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA0126CA215B6A410016F261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA0126D1215B6A410016F261;
+			remoteInfo = LSSNineGridLuckDraw;
+		};
+		EA0126F6215B6A420016F261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA0126CA215B6A410016F261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA0126D1215B6A410016F261;
+			remoteInfo = LSSNineGridLuckDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA0126D2215B6A410016F261 /* LSSNineGridLuckDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSSNineGridLuckDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0126D5215B6A410016F261 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA0126D6215B6A410016F261 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA0126D8215B6A410016F261 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA0126D9215B6A410016F261 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA0126DC215B6A410016F261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA0126DE215B6A410016F261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA0126E1215B6A410016F261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA0126E3215B6A410016F261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0126E4215B6A410016F261 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA0126EA215B6A420016F261 /* LSSNineGridLuckDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSSNineGridLuckDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0126EE215B6A420016F261 /* LSSNineGridLuckDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSSNineGridLuckDrawTests.m; sourceTree = "<group>"; };
+		EA0126F0215B6A420016F261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0126F5215B6A420016F261 /* LSSNineGridLuckDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSSNineGridLuckDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0126F9215B6A420016F261 /* LSSNineGridLuckDrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSSNineGridLuckDrawUITests.m; sourceTree = "<group>"; };
+		EA0126FB215B6A420016F261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA012708215B6A730016F261 /* LSSLuckDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSSLuckDraw.h; sourceTree = "<group>"; };
+		EA012709215B6A730016F261 /* LSSLuckDraw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSSLuckDraw.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA0126CF215B6A410016F261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0126E7215B6A420016F261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0126F2215B6A420016F261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA0126C9215B6A410016F261 = {
+			isa = PBXGroup;
+			children = (
+				EA0126D4215B6A410016F261 /* LSSNineGridLuckDraw */,
+				EA0126ED215B6A420016F261 /* LSSNineGridLuckDrawTests */,
+				EA0126F8215B6A420016F261 /* LSSNineGridLuckDrawUITests */,
+				EA0126D3215B6A410016F261 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA0126D3215B6A410016F261 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA0126D2215B6A410016F261 /* LSSNineGridLuckDraw.app */,
+				EA0126EA215B6A420016F261 /* LSSNineGridLuckDrawTests.xctest */,
+				EA0126F5215B6A420016F261 /* LSSNineGridLuckDrawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA0126D4215B6A410016F261 /* LSSNineGridLuckDraw */ = {
+			isa = PBXGroup;
+			children = (
+				EA012707215B6A5D0016F261 /* LSSLuckDraw */,
+				EA0126D5215B6A410016F261 /* AppDelegate.h */,
+				EA0126D6215B6A410016F261 /* AppDelegate.m */,
+				EA0126D8215B6A410016F261 /* ViewController.h */,
+				EA0126D9215B6A410016F261 /* ViewController.m */,
+				EA0126DB215B6A410016F261 /* Main.storyboard */,
+				EA0126DE215B6A410016F261 /* Assets.xcassets */,
+				EA0126E0215B6A410016F261 /* LaunchScreen.storyboard */,
+				EA0126E3215B6A410016F261 /* Info.plist */,
+				EA0126E4215B6A410016F261 /* main.m */,
+			);
+			path = LSSNineGridLuckDraw;
+			sourceTree = "<group>";
+		};
+		EA0126ED215B6A420016F261 /* LSSNineGridLuckDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA0126EE215B6A420016F261 /* LSSNineGridLuckDrawTests.m */,
+				EA0126F0215B6A420016F261 /* Info.plist */,
+			);
+			path = LSSNineGridLuckDrawTests;
+			sourceTree = "<group>";
+		};
+		EA0126F8215B6A420016F261 /* LSSNineGridLuckDrawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA0126F9215B6A420016F261 /* LSSNineGridLuckDrawUITests.m */,
+				EA0126FB215B6A420016F261 /* Info.plist */,
+			);
+			path = LSSNineGridLuckDrawUITests;
+			sourceTree = "<group>";
+		};
+		EA012707215B6A5D0016F261 /* LSSLuckDraw */ = {
+			isa = PBXGroup;
+			children = (
+				EA012708215B6A730016F261 /* LSSLuckDraw.h */,
+				EA012709215B6A730016F261 /* LSSLuckDraw.m */,
+			);
+			path = LSSLuckDraw;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA0126D1215B6A410016F261 /* LSSNineGridLuckDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0126FE215B6A420016F261 /* Build configuration list for PBXNativeTarget "LSSNineGridLuckDraw" */;
+			buildPhases = (
+				EA0126CE215B6A410016F261 /* Sources */,
+				EA0126CF215B6A410016F261 /* Frameworks */,
+				EA0126D0215B6A410016F261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSSNineGridLuckDraw;
+			productName = LSSNineGridLuckDraw;
+			productReference = EA0126D2215B6A410016F261 /* LSSNineGridLuckDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA0126E9215B6A420016F261 /* LSSNineGridLuckDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA012701215B6A420016F261 /* Build configuration list for PBXNativeTarget "LSSNineGridLuckDrawTests" */;
+			buildPhases = (
+				EA0126E6215B6A420016F261 /* Sources */,
+				EA0126E7215B6A420016F261 /* Frameworks */,
+				EA0126E8215B6A420016F261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA0126EC215B6A420016F261 /* PBXTargetDependency */,
+			);
+			name = LSSNineGridLuckDrawTests;
+			productName = LSSNineGridLuckDrawTests;
+			productReference = EA0126EA215B6A420016F261 /* LSSNineGridLuckDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA0126F4215B6A420016F261 /* LSSNineGridLuckDrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA012704215B6A420016F261 /* Build configuration list for PBXNativeTarget "LSSNineGridLuckDrawUITests" */;
+			buildPhases = (
+				EA0126F1215B6A420016F261 /* Sources */,
+				EA0126F2215B6A420016F261 /* Frameworks */,
+				EA0126F3215B6A420016F261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA0126F7215B6A420016F261 /* PBXTargetDependency */,
+			);
+			name = LSSNineGridLuckDrawUITests;
+			productName = LSSNineGridLuckDrawUITests;
+			productReference = EA0126F5215B6A420016F261 /* LSSNineGridLuckDrawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA0126CA215B6A410016F261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "连帅帅";
+				TargetAttributes = {
+					EA0126D1215B6A410016F261 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					EA0126E9215B6A420016F261 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA0126D1215B6A410016F261;
+					};
+					EA0126F4215B6A420016F261 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA0126D1215B6A410016F261;
+					};
+				};
+			};
+			buildConfigurationList = EA0126CD215B6A410016F261 /* Build configuration list for PBXProject "LSSNineGridLuckDraw" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA0126C9215B6A410016F261;
+			productRefGroup = EA0126D3215B6A410016F261 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA0126D1215B6A410016F261 /* LSSNineGridLuckDraw */,
+				EA0126E9215B6A420016F261 /* LSSNineGridLuckDrawTests */,
+				EA0126F4215B6A420016F261 /* LSSNineGridLuckDrawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA0126D0215B6A410016F261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0126E2215B6A410016F261 /* LaunchScreen.storyboard in Resources */,
+				EA0126DF215B6A410016F261 /* Assets.xcassets in Resources */,
+				EA0126DD215B6A410016F261 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0126E8215B6A420016F261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0126F3215B6A420016F261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA0126CE215B6A410016F261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0126DA215B6A410016F261 /* ViewController.m in Sources */,
+				EA0126E5215B6A410016F261 /* main.m in Sources */,
+				EA0126D7215B6A410016F261 /* AppDelegate.m in Sources */,
+				EA01270A215B6A730016F261 /* LSSLuckDraw.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0126E6215B6A420016F261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0126EF215B6A420016F261 /* LSSNineGridLuckDrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0126F1215B6A420016F261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0126FA215B6A420016F261 /* LSSNineGridLuckDrawUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA0126EC215B6A420016F261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA0126D1215B6A410016F261 /* LSSNineGridLuckDraw */;
+			targetProxy = EA0126EB215B6A420016F261 /* PBXContainerItemProxy */;
+		};
+		EA0126F7215B6A420016F261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA0126D1215B6A410016F261 /* LSSNineGridLuckDraw */;
+			targetProxy = EA0126F6215B6A420016F261 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA0126DB215B6A410016F261 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0126DC215B6A410016F261 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA0126E0215B6A410016F261 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0126E1215B6A410016F261 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA0126FC215B6A420016F261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA0126FD215B6A420016F261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA0126FF215B6A420016F261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN7YN6X94X;
+				INFOPLIST_FILE = LSSNineGridLuckDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kairui.LSSNineGridLuckDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA012700215B6A420016F261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN7YN6X94X;
+				INFOPLIST_FILE = LSSNineGridLuckDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kairui.LSSNineGridLuckDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA012702215B6A420016F261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN7YN6X94X;
+				INFOPLIST_FILE = LSSNineGridLuckDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kairui.LSSNineGridLuckDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSSNineGridLuckDraw.app/LSSNineGridLuckDraw";
+			};
+			name = Debug;
+		};
+		EA012703215B6A420016F261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN7YN6X94X;
+				INFOPLIST_FILE = LSSNineGridLuckDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kairui.LSSNineGridLuckDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSSNineGridLuckDraw.app/LSSNineGridLuckDraw";
+			};
+			name = Release;
+		};
+		EA012705215B6A420016F261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN7YN6X94X;
+				INFOPLIST_FILE = LSSNineGridLuckDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kairui.LSSNineGridLuckDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LSSNineGridLuckDraw;
+			};
+			name = Debug;
+		};
+		EA012706215B6A420016F261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN7YN6X94X;
+				INFOPLIST_FILE = LSSNineGridLuckDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kairui.LSSNineGridLuckDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LSSNineGridLuckDraw;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA0126CD215B6A410016F261 /* Build configuration list for PBXProject "LSSNineGridLuckDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0126FC215B6A420016F261 /* Debug */,
+				EA0126FD215B6A420016F261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0126FE215B6A420016F261 /* Build configuration list for PBXNativeTarget "LSSNineGridLuckDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0126FF215B6A420016F261 /* Debug */,
+				EA012700215B6A420016F261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA012701215B6A420016F261 /* Build configuration list for PBXNativeTarget "LSSNineGridLuckDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA012702215B6A420016F261 /* Debug */,
+				EA012703215B6A420016F261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA012704215B6A420016F261 /* Build configuration list for PBXNativeTarget "LSSNineGridLuckDrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA012705215B6A420016F261 /* Debug */,
+				EA012706215B6A420016F261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA0126CA215B6A410016F261 /* Project object */;
+}
