@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"加载");
     NSMutableArray  * arr =[NSMutableArray array];
     for (int i =0; i<9; i++) {
         [arr addObject:[NSString stringWithFormat:@"%d",i+1]];
